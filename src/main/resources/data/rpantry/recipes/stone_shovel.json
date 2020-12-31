@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "I",
+    "S",
+    "S"
+  ],
+  "key": {
+    "I": {
+      "tag": "rpantry:cobblestones"
+    },
+    "S": {
+      "tag": "rpantry:sticks"
+    }
+  },
+  "result": {
+    "item": "minecraft:stone_shovel"
+  }
+}

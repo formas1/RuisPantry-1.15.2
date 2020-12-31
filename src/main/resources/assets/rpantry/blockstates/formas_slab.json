@@ -1,0 +1,7 @@
+{
+    "variants": {
+        "type=bottom": { "model": "rpantry:block/formas_slab" },
+        "type=top": { "model": "rpantry:block/formas_slab_top" },
+        "type=double": { "model": "rpantry:block/formas_planks" }
+    }
+}

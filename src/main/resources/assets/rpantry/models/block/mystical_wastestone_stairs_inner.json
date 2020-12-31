@@ -1,0 +1,8 @@
+{
+    "parent": "block/inner_stairs",
+    "textures": {
+        "bottom": "rpantry:blocks/mystical_wastestone",
+        "top": "rpantry:blocks/mystical_wastestone",
+        "side": "rpantry:blocks/mystical_wastestone"
+    }
+}

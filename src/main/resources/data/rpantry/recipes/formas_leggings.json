@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "III",
+    "I I",
+    "I I"
+  ],
+  "key": {
+    "I": {
+      "item": "rpantry:formas_ingot"
+    }
+  },
+  "result": {
+    "item": "rpantry:formas_leggings"
+  }
+}

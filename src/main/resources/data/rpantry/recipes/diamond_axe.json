@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "II",
+    "IS",
+    " S"
+  ],
+  "key": {
+    "I": {
+      "item": "minecraft:diamond"
+    },
+    "S": {
+      "tag": "rpantry:sticks"
+    }
+  },
+  "result": {
+    "item": "minecraft:diamond_axe"
+  }
+}

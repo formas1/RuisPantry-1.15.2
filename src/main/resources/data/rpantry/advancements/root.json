@@ -1,0 +1,22 @@
+{
+    "display": {
+        "icon": {
+            "item": "rpantry:strawberry"
+        },
+        "title": {
+            "translate": "advancements.rpantry.root.title"
+        },
+        "description": {
+            "translate": "advancements.rpantry.root.description"
+        },
+        "background": "rpantry:textures/gui/advancements/backgrounds/rpantry.png",
+        "show_toast": true,
+        "announce_to_chat": false,
+        "hidden" : false
+    },
+    "criteria": {
+        "tick": {
+            "trigger": "minecraft:tick"
+        }
+    }
+}

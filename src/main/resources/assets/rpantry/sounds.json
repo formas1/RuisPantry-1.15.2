@@ -1,0 +1,12 @@
+{
+	"biome.wasteland.ambient": {
+		"category": "biome",
+		"subtitle": "biome.wasteland.ambient",
+		"sounds": [
+			{
+				"name": "rpantry:biome/biome.wasteland.ambient",
+				"stream": true
+			}
+		]
+	}
+}

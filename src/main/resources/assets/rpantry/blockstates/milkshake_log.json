@@ -1,0 +1,7 @@
+{
+    "variants": {
+        "axis=y":  { "model": "rpantry:block/milkshake_log" },
+        "axis=z":   { "model": "rpantry:block/milkshake_log", "x": 90 },
+        "axis=x":   { "model": "rpantry:block/milkshake_log", "x": 90, "y": 90 }
+    }
+}

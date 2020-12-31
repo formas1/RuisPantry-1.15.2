@@ -1,0 +1,8 @@
+{
+    "parent": "block/slab",
+    "textures": {
+        "bottom": "rpantry:blocks/wasteland_plum_tree_planks",
+        "top": "rpantry:blocks/wasteland_plum_tree_planks",
+        "side": "rpantry:blocks/wasteland_plum_tree_planks"
+    }
+}

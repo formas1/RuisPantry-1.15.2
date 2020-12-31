@@ -1,0 +1,29 @@
+{
+  "display": {
+    "icon": {
+      "item": "rpantry:strawberry"
+    },
+    "title": {
+    "translate": "advancements.rpantry.sweet_magic.title"
+    },
+    "description": {
+    "translate": "advancements.rpantry.sweet_magic.description"
+    },
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "rpantry:root",
+  "criteria": {
+    "strawberry": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "rpantry:strawberry"
+          }
+        ]
+      }
+    }
+  }
+}

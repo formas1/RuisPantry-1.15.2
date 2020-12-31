@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "III"
+  ],
+  "key": {
+    "I": {
+      "item": "rpantry:formas_planks"
+    }
+  },
+  "result": {
+    "item": "rpantry:formas_slab",
+	"count": 6
+  }
+}

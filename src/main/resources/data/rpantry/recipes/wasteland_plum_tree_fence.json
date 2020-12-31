@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "IOI",
+	"IOI"
+  ],
+  "key": {
+    "I": {
+      "item": "rpantry:wasteland_plum_tree_planks"
+    },
+	  "O": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "rpantry:wasteland_plum_tree_fence",
+	"count": 3
+  }
+}

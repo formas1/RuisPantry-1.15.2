@@ -1,0 +1,7 @@
+{
+    "parent": "block/cube_column",
+    "textures": {
+        "end": "rpantry:blocks/milkshake_log_top",
+        "side": "rpantry:blocks/milkshake_log_side"
+    }
+}

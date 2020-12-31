@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "III",
+    " S ",
+    " S "
+  ],
+  "key": {
+    "I": {
+      "item": "rpantry:gam_ingot"
+    },
+    "S": {
+      "item": "rpantry:gam_stick"
+    }
+  },
+  "result": {
+    "item": "rpantry:gam_pickaxe"
+  }
+}

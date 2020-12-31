@@ -1,0 +1,7 @@
+{
+    "variants": {
+        "type=bottom": { "model": "rpantry:block/milkshake_slab" },
+        "type=top": { "model": "rpantry:block/milkshake_slab_top" },
+        "type=double": { "model": "rpantry:block/milkshake_planks" }
+    }
+}

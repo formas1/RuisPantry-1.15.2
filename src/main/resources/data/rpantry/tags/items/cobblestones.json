@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "rpantry:corrupted_cobblestone",
+	"rpantry:mystical_wastecobble",
+	"minecraft:cobblestone"
+  ]
+}

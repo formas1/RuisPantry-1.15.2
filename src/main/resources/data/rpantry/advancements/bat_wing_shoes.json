@@ -1,0 +1,29 @@
+{
+  "display": {
+    "icon": {
+      "item": "rpantry:bat_wing_shoes"
+    },
+    "title": {
+    "translate": "advancements.rpantry.bat_wing_shoes.title"
+    },
+    "description": {
+    "translate": "advancements.rpantry.bat_wing_shoes.description"
+    },
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "rpantry:bat_wing",
+  "criteria": {
+    "shoes": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "rpantry:bat_wing_shoes"
+          }
+        ]
+      }
+    }
+  }
+}

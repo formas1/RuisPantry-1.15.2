@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    "rpantry:formas_leaves",
+	"rpantry:gam_leaves",
+	"rpantry:milkshake_leaves",
+	"rpantry:corrupted_leaves",
+	"rpantry:wasteland_plum_tree_leaves"
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    "rpantry:formas_fence",
+	"rpantry:gam_fence",
+	"rpantry:milkshake_fence",
+	"rpantry:wasteland_plum_tree_fence",
+	"rpantry:corrupted_fence"
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "I  ",
+	"II ",
+	"III"
+  ],
+  "key": {
+    "I": {
+      "item": "rpantry:corrupted_stone"
+    }
+  },
+  "result": {
+    "item": "rpantry:corrupted_stone_stairs",
+	"count": 4
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "I",
+    "I",
+    "S"
+  ],
+  "key": {
+    "I": {
+      "item": "rpantry:milkshake_ingot"
+    },
+    "S": {
+      "item": "rpantry:milkshake_stick"
+    }
+  },
+  "result": {
+    "item": "rpantry:milkshake_sword"
+  }
+}

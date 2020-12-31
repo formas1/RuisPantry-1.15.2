@@ -1,0 +1,31 @@
+{
+  "display": {
+    "icon": {
+      "item": "rpantry:mystical_wastecobble"
+    },
+    "title": {
+    "translate": "advancements.rpantry.wasteland.title"
+    },
+    "description": {
+    "translate": "advancements.rpantry.wasteland.description"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "rpantry:root",
+  "criteria": {
+    "rpantry:wasteland_hills_biome": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "biome": "rpantry:wasteland_hills_biome"
+      }
+    }
+  },
+  "requirements": [
+  	[
+  		"rpantry:wasteland_hills_biome"
+    ]
+  ]
+}

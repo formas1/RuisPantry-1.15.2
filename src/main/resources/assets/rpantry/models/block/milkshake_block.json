@@ -1,0 +1,8 @@
+{
+    "parent": "block/cube_bottom_top",
+    "textures": {
+        "bottom": "rpantry:blocks/milkshake_block_bottom",
+        "top": "rpantry:blocks/milkshake_block_top",
+        "side": "rpantry:blocks/milkshake_block"
+    }
+}

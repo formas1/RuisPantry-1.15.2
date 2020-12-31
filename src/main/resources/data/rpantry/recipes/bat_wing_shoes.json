@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "O O",
+    "I I",
+	"I I"
+  ],
+  "key": {
+    "I": {
+      "item": "rpantry:bat_wing"
+    },
+	"O": {
+      "item": "minecraft:string"
+    }
+  },
+  "result": {
+    "item": "rpantry:bat_wing_shoes"
+  }
+}

@@ -1,0 +1,9 @@
+{
+    "parent": "block/cube_bottom_top",
+    "textures": {
+        "particle": "rpantry:blocks/corrupted_dirt",
+        "bottom": "rpantry:blocks/corrupted_dirt",
+        "top": "rpantry:blocks/corrupted_grass_top",
+        "side": "rpantry:blocks/corrupted_grass_side"
+    }
+}

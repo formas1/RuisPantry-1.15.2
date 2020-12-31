@@ -1,0 +1,55 @@
+modLoader="javafml"
+
+loaderVersion="[31,)"
+
+issueTrackerURL="https://www.curseforge.com/minecraft/mc-mods/ruis-pantry"
+
+
+logoFile="rpantrylogo.png"
+
+[[mods]] #mandatory
+
+modId="rpantry"
+
+version="0.15.0"
+
+displayName="Rui's Pantry"
+
+updateJSONURL="http://myurl.me/"
+
+displayURL="https://formas1.wixsite.com/ruispantrymod" #optional
+
+credits="Thanks to Formas1 for Programming, Design and Development, Gam for Game Testing, Milkshake for Base Design Sketches and Kaloyan for final Design for textures."
+
+authors="Formas1"
+
+description='''
+Rui's Pantry is a mod that adds all the Formas1, Milkshake and Gam materials for tools and armor as well as the virus of Corruption, brand new magic Dimensions and much more!
+'''
+
+[[dependencies.rpantry]]
+    # the modid of the dependency
+    modId="forge" #mandatory
+    # Does this dependency have to exist - if not, ordering below must be specified
+    mandatory=true #mandatory
+    # The version range of the dependency
+    versionRange="[31,)" #mandatory
+    # An ordering relationship for the dependency - BEFORE or AFTER required if the relationship is not mandatory
+    ordering="NONE"
+    # Side this dependency is applied on - BOTH, CLIENT or SERVER
+    side="BOTH"
+    
+# Here's another dependency
+[[dependencies.rpantry]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.15.2]"
+    ordering="NONE"
+    side="BOTH"
+    
+[[dependencies.rpantry]]
+    modId="patchouli"
+    mandatory=false
+    versionRange="[1.15.2-1.2-32,]"
+    ordering="NONE"
+    side="BOTH"

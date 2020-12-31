@@ -1,0 +1,33 @@
+{
+  "display": {
+    "icon": {
+      "item": "rpantry:spinel"
+    },
+    "title": {
+    "translate": "advancements.rpantry.magic_ores.title"
+    },
+    "description": {
+    "translate": "advancements.rpantry.magic_ores.description"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "rpantry:root",
+  "criteria": {
+    "shoes": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "rpantry:spinel"
+          },
+          {
+            "item": "rpantry:ender_asurite"
+          }
+        ]
+      }
+    }
+  }
+}

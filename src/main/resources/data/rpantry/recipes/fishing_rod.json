@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "  I",
+    " IS",
+    "I S"
+  ],
+  "key": {
+    "I": {
+      "tag": "rpantry:sticks"
+    },
+    "S": {
+      "item": "minecraft:string"
+    }
+  },
+  "result": {
+    "item": "minecraft:fishing_rod"
+  }
+}

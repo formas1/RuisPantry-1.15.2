@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "planks",
+  "ingredients": [
+    {
+      "item": "rpantry:milkshake_log"
+    }
+  ],
+  "result": {
+    "item": "rpantry:milkshake_planks",
+    "count": 4
+  }
+}

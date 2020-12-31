@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "I  ",
+	"II ",
+	"III"
+  ],
+  "key": {
+    "I": {
+      "item": "rpantry:formas_planks"
+    }
+  },
+  "result": {
+    "item": "rpantry:formas_stairs",
+	"count": 4
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "III"
+  ],
+  "key": {
+    "I": {
+      "item": "rpantry:wasteland_plum_tree_planks"
+    }
+  },
+  "result": {
+    "item": "rpantry:wasteland_plum_tree_slab",
+	"count": 6
+  }
+}

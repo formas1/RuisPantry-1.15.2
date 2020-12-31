@@ -1,0 +1,27 @@
+{
+  "display": {
+    "icon": {
+      "item": "rpantry:corrupted_apple"
+    },
+    "title": {
+    "translate": "advancements.rpantry.tasty_agony.title"
+    },
+    "description": {
+    "translate": "advancements.rpantry.tasty_agony.description"
+    },
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "rpantry:corruption",
+  "criteria": {
+    "corrupted_apple": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "item": "rpantry:corrupted_apple"
+        }
+      }
+    }
+  }
+}

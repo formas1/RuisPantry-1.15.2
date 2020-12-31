@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "IOI",
+	"IOI"
+  ],
+  "key": {
+    "I": {
+      "item": "rpantry:corrupted_planks"
+    },
+	  "O": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "rpantry:corrupted_fence",
+	"count": 3
+  }
+}

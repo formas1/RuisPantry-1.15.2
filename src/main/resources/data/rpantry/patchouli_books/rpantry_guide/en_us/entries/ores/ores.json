@@ -1,0 +1,37 @@
+{
+    "name": "Ores",
+    "icon": "rpantry:formas_ore",
+    "category": "rpantry:basics",
+    "sortnum": 1,
+    "pages": [
+        {
+            "type": "text",
+            "text": "With this mod, you also have new ore materials, and with then you can create pretty much every type of item you usually get from ores."
+        },
+        {
+            "type": "spotlight",
+            "item": "rpantry:formas_ore",
+            "text": "Here we will only cover the overworld ores, but on the $(#e80059)$(l:magic_ores/magic_ores)$(bold)Challenge$() category, we will need to reference some other dimensions...$(br2)In order to mine the Formas, Gam and Milkshake ores, you need to get at least a Diamond Pickaxe, and it will drop from 2 to 5 nuggets of the ore."
+        },
+        {
+            "type": "spotlight",
+            "item": "rpantry:formas_nugget",
+            "text": "With the dropped nuggets, you can craft ingots by filling the 9 craft spots, and with the ingots, you can build yourself full armor and toolsets (using the matching sticks for the tools of course)"
+        },
+        {
+        	"type": "crafting",
+        	"recipe": "rpantry:formas_pickaxe",
+        	"recipe2": "rpantry:formas_chestplate"
+        },
+        {
+            "type": "spotlight",
+            "item": "minecraft:netherrack",
+            "text": "Rui's Pantry also adds a tool set of $(bold)NETHERRACK$() that, even being really weak, supporting only about 10 uses, has a harvest level of 4, which stands for 1 tier higher than diamond, meaning it can handle everything diamond does and if in the presence of mods with higher harvest requirements, it can handle the level after diamond too!"
+        },
+        {
+        	"type": "crafting",
+        	"recipe": "rpantry:netherrack_pickaxe",
+        	"text": "This was added with the purpose of providing an easy and good way of getting tools in the nether.$(br2)$(bold)$(l:magic_ores/magic_ores)Next Category (Magic Ores)"
+        }
+    ]
+}

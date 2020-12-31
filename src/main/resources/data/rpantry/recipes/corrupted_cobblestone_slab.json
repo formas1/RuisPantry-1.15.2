@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "III"
+  ],
+  "key": {
+    "I": {
+      "item": "rpantry:corrupted_cobblestone"
+    }
+  },
+  "result": {
+    "item": "rpantry:corrupted_cobblestone_slab",
+	"count": 6
+  }
+}

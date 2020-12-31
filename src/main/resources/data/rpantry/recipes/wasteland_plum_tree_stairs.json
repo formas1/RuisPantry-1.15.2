@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "I  ",
+	"II ",
+	"III"
+  ],
+  "key": {
+    "I": {
+      "item": "rpantry:wasteland_plum_tree_planks"
+    }
+  },
+  "result": {
+    "item": "rpantry:wasteland_plum_tree_stairs",
+	"count": 4
+  }
+}

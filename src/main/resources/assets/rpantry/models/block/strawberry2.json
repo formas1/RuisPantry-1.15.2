@@ -1,0 +1,6 @@
+{
+    "parent": "rpantry:block/crosscrop",
+    "textures": {
+        "crosscrop": "rpantry:blocks/strawberry2"
+    }
+}

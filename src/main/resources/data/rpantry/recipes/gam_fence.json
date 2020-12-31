@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "IOI",
+	"IOI"
+  ],
+  "key": {
+    "I": {
+      "item": "rpantry:gam_planks"
+    },
+	  "O": {
+      "item": "rpantry:gam_stick"
+    }
+  },
+  "result": {
+    "item": "rpantry:gam_fence",
+	"count": 3
+  }
+}

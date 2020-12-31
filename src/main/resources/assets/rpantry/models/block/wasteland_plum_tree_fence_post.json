@@ -1,0 +1,6 @@
+{
+    "parent": "block/fence_post",
+    "textures": {
+        "texture": "rpantry:blocks/wasteland_plum_tree_planks"
+    }
+}

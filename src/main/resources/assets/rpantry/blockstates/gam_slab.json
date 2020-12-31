@@ -1,0 +1,7 @@
+{
+    "variants": {
+        "type=bottom": { "model": "rpantry:block/gam_slab" },
+        "type=top": { "model": "rpantry:block/gam_slab_top" },
+        "type=double": { "model": "rpantry:block/gam_planks" }
+    }
+}

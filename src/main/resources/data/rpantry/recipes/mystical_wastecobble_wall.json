@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "III",
+	"III"
+  ],
+  "key": {
+    "I": {
+      "item": "rpantry:mystical_wastecobble"
+    }
+  },
+  "result": {
+    "item": "rpantry:mystical_wastecobble_wall",
+	"count": 6
+  }
+}

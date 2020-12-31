@@ -1,0 +1,7 @@
+{
+    "variants": {
+        "type=bottom": { "model": "rpantry:block/corrupted_slab" },
+        "type=top": { "model": "rpantry:block/corrupted_slab_top" },
+        "type=double": { "model": "rpantry:block/corrupted_planks" }
+    }
+}

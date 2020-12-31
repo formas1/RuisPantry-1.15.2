@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "I I",
+    "III",
+	"I I"
+  ],
+  "key": {
+    "I": {
+      "tag": "rpantry:sticks"
+    }
+  },
+  "result": {
+    "item": "minecraft:ladder",
+	"count": 3
+  }
+}

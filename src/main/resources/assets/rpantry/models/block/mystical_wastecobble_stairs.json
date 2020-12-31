@@ -1,0 +1,8 @@
+{
+    "parent": "block/stairs",
+    "textures": {
+        "bottom": "rpantry:blocks/mystical_wastecobble",
+        "top": "rpantry:blocks/mystical_wastecobble",
+        "side": "rpantry:blocks/mystical_wastecobble"
+    }
+}

@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "IOI",
+	"IOI"
+  ],
+  "key": {
+    "I": {
+      "item": "rpantry:formas_planks"
+    },
+	  "O": {
+      "item": "rpantry:formas_stick"
+    }
+  },
+  "result": {
+    "item": "rpantry:formas_fence",
+	"count": 3
+  }
+}

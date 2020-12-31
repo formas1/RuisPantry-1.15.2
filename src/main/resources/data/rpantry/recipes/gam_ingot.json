@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "III",
+    "III",
+    "III"
+  ],
+  "key": {
+    "I": {
+      "item": "rpantry:gam_nugget"
+    }
+  },
+  "result": {
+    "item": "rpantry:gam_ingot"
+  }
+}

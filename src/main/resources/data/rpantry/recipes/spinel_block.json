@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "III",
+    "IOI",
+    "III"
+  ],
+  "key": {
+    "I": {
+      "item": "rpantry:spinel"
+    },
+    "O": {
+      "item": "rpantry:ender_asurite"
+    }
+  },
+  "result": {
+    "item": "rpantry:spinel_block"
+  }
+}

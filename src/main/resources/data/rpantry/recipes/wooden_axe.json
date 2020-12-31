@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "II",
+    "IS",
+    " S"
+  ],
+  "key": {
+    "I": {
+      "tag": "rpantry:planks"
+    },
+    "S": {
+      "tag": "rpantry:sticks"
+    }
+  },
+  "result": {
+    "item": "minecraft:wooden_axe"
+  }
+}

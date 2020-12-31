@@ -1,0 +1,6 @@
+{
+    "parent": "block/cube_all",
+    "textures": {
+        "all": "rpantry:blocks/wasteland_gam_ore"
+    }
+}

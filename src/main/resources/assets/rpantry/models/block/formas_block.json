@@ -1,0 +1,7 @@
+{
+    "parent": "block/orientable_vertical",
+    "textures": {
+        "front": "rpantry:blocks/formas_block_top",
+        "side": "rpantry:blocks/formas_block"
+    }
+}

@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "I  ",
+	"II ",
+	"III"
+  ],
+  "key": {
+    "I": {
+      "item": "rpantry:milkshake_planks"
+    }
+  },
+  "result": {
+    "item": "rpantry:milkshake_stairs",
+	"count": 4
+  }
+}

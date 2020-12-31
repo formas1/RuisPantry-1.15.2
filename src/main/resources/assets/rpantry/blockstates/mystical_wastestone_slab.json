@@ -1,0 +1,7 @@
+{
+    "variants": {
+        "type=bottom": { "model": "rpantry:block/mystical_wastestone_slab" },
+        "type=top": { "model": "rpantry:block/mystical_wastestone_slab_top" },
+        "type=double": { "model": "rpantry:block/mystical_wastestone" }
+    }
+}

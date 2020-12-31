@@ -1,0 +1,228 @@
+{
+	"item.rpantry.formas_ingot": "Formas Ingot",
+	"item.rpantry.gam_ingot": "Gam Ingot",
+	"item.rpantry.milkshake_ingot": "Milkshake Ingot",
+	
+	"item.rpantry.formas_stick": "Formas Stick",
+	"item.rpantry.gam_stick": "Gam Stick",
+	"item.rpantry.milkshake_stick": "Milkshake Stick",
+	
+	"item.rpantry.spinel": "Spinel",
+	"item.rpantry.ender_asurite": "The Ender Asurite",
+	
+	"item.rpantry.formas_nugget": "Formas Nugget",
+	"item.rpantry.gam_nugget": "Gam Nugget",
+	"item.rpantry.milkshake_nugget": "Milkshake Nugget",
+	
+	
+	"item.rpantry.formas_helmet": "Formas Helmet",
+	"item.rpantry.formas_chestplate": "Formas Chestplate",
+	"item.rpantry.formas_leggings": "Formas Leggings",
+	"item.rpantry.formas_boots": "Formas Boots",
+	
+	"item.rpantry.gam_helmet": "Gam Helmet",
+	"item.rpantry.gam_chestplate": "Gam Chestplate",
+	"item.rpantry.gam_leggings": "Gam Leggings",
+	"item.rpantry.gam_boots": "Gam Boots",
+	
+	"item.rpantry.milkshake_helmet": "Milkshake Helmet",
+	"item.rpantry.milkshake_chestplate": "Milkshake Chestplate",
+	"item.rpantry.milkshake_leggings": "Milkshake Leggings",
+	"item.rpantry.milkshake_boots": "Milkshake Boots",
+	
+	"block.rpantry.big_strawberry": "Big Strawberry",
+	
+	"block.rpantry.spinel_ore": "Spinel Ore",
+	"block.rpantry.ender_asurite_ore": "The Ender Asurite Ore",
+	"block.rpantry.spinel_block": "Spinel Block",
+	
+	"block.rpantry.formas_block": "Formas Block",
+	"block.rpantry.gam_block": "Gam Block",
+	"block.rpantry.milkshake_block": "Milkshake Block",
+	
+	"block.rpantry.formas_ore": "Formas Ore",
+	"block.rpantry.gam_ore": "Gam Ore",
+	"block.rpantry.milkshake_ore": "Milkshake Ore",
+	
+	"block.rpantry.corrupted_formas_ore": "Corrupted Formas Ore",
+	"block.rpantry.corrupted_gam_ore": "Corrupted Gam Ore",
+	"block.rpantry.corrupted_milkshake_ore": "Corrupted Milkshake Ore",
+	
+	"block.rpantry.wasteland_formas_ore": "Wasteland Formas Ore",
+	"block.rpantry.wasteland_gam_ore": "Wasteland Gam Ore",
+	"block.rpantry.wasteland_milkshake_ore": "Wasteland Milkshake Ore",
+	
+	"block.rpantry.formas_log": "Formas Log",
+	"block.rpantry.formas_leaves": "Formas Leaves",
+	"block.rpantry.formas_sapling": "Formas Sapling",
+	"block.rpantry.formas_planks": "Formas Planks",
+	
+	"block.rpantry.gam_log": "Gam Log",
+	"block.rpantry.gam_leaves": "Gam Leaves",
+	"block.rpantry.gam_sapling": "Gam Sapling",
+	"block.rpantry.gam_planks": "Gam Planks",
+	
+	"block.rpantry.milkshake_log": "Milkshake Log",
+	"block.rpantry.milkshake_leaves": "Milkshake Leaves",
+	"block.rpantry.milkshake_sapling": "Milkshake Sapling",
+	"block.rpantry.milkshake_planks": "Milkshake Planks",
+	
+	"block.rpantry.corrupted_log": "Corrupted Oak Log",
+	"block.rpantry.corrupted_leaves": "Corrupted Oak Leaves",
+	"block.rpantry.corrupted_sapling": "Corrupted Oak Sapling",
+	"block.rpantry.corrupted_planks": "Corrupted Oak Planks",
+	
+	"block.rpantry.wasteland_plum_tree_log": "Wasteland Plum Tree Log",
+	"block.rpantry.wasteland_plum_tree_leaves": "Wasteland Plum Tree Leaves",
+	"block.rpantry.wasteland_plum_tree_sapling": "Wasteland Plum Tree Sapling",
+	"block.rpantry.wasteland_plum_tree_planks": "Wasteland Plum Tree Planks",
+	
+	"block.rpantry.formas_stairs": "Formas Stairs",
+	"block.rpantry.gam_stairs": "Gam Stairs",
+	"block.rpantry.milkshake_stairs": "Milkshake Stairs",
+	"block.rpantry.corrupted_stairs": "Corrupted Oak Stairs",
+	"block.rpantry.corrupted_cobblestone_stairs": "Corrupted Cobblestone Stairs",
+	"block.rpantry.corrupted_stone_stairs": "Corrupted Stone Stairs",
+	"block.rpantry.wasteland_plum_tree_stairs": "Wasteland Plum Tree Stairs",
+	"block.rpantry.mystical_wastestone_stairs": "Mystic Wastestone Stairs",
+	"block.rpantry.mystical_wastecobble_stairs": "Mystic Wastecobble Stairs",
+	
+	"block.rpantry.formas_slab": "Formas Slab",
+	"block.rpantry.gam_slab": "Gam Slab",
+	"block.rpantry.milkshake_slab": "Milkshake Slab",
+	"block.rpantry.corrupted_slab": "Corrupted Oak Slab",
+	"block.rpantry.corrupted_cobblestone_slab": "Corrupted Cobblestone Slab",
+	"block.rpantry.corrupted_stone_slab": "Corrupted Stone Slab",
+	"block.rpantry.wasteland_plum_tree_slab": "Wasteland Plum Tree Slab",
+	"block.rpantry.mystical_wastestone_slab": "Mystic Wastestone Slab",
+	"block.rpantry.mystical_wastecobble_slab": "Mystic Wastecobble Slab",
+	
+	"block.rpantry.mystical_wastecobble_wall": "Mystic Wastecobble Wall",
+	"block.rpantry.corrupted_cobblestone_wall": "Corrupted Cobblestone Wall",
+	
+	
+	"block.rpantry.formas_fence": "Formas Fence",
+	"block.rpantry.gam_fence": "Gam Fence",
+	"block.rpantry.milkshake_fence": "Milkshake Fence",
+	"block.rpantry.corrupted_fence": "Corrupted Oak Fence",
+	"block.rpantry.wasteland_plum_tree_fence": "Wasteland Plum Tree Fence",	
+	
+	"block.rpantry.strawberry_plant": "Strawberry Seeds",
+	
+	
+	"block.rpantry.corrupted_cobblestone": "Corrupted Cobblestone",
+	"block.rpantry.corrupted_stone": "Corrupted Stone",
+	"block.rpantry.corrupted_mossy_cobblestone": "Corrupted Mossy Cobblestone",
+	"block.rpantry.corrupted_dirt": "Corrupted Dirt",
+	"block.rpantry.corrupted_grass": "Corrupted Grass",
+	
+	"block.rpantry.mystical_wasteland_grass": "Mystic Wastegrass",
+	"block.rpantry.mystical_wastestone": "Mystic Wastestone",
+	"block.rpantry.mystical_wastecobble": "Mystic Wastecobble",
+	
+	"block.rpantry.pantry_portal": "Pantry's EnterHole",
+	
+	"block.rpantry.candy_stone": "Candy Stone",
+	"block.rpantry.rock_candy_block": "Rock Candy Block",
+	"block.rpantry.chocolate_stone": "Chocorite",
+	"block.rpantry.caramel_block": "Caramel Block",
+	"block.rpantry.cookie_block": "Cookie Block",
+		
+	"item.rpantry.obsidian_pickaxe": "Obsidian Pickaxe",
+	
+	"item.rpantry.formas_sword": "Formas Sword",
+	"item.rpantry.formas_pickaxe": "Formas Pickaxe",
+	"item.rpantry.formas_axe": "Formas Axe",
+	"item.rpantry.formas_shovel": "Formas Shovel",
+	"item.rpantry.formas_hoe": "Formas Hoe",
+
+	"item.rpantry.gam_sword": "Gam Sword",
+	"item.rpantry.gam_pickaxe": "Gam Pickaxe",
+	"item.rpantry.gam_axe": "Gam Axe",
+	"item.rpantry.gam_shovel": "Gam Shovel",
+	"item.rpantry.gam_hoe": "Gam Hoe",	
+
+	"item.rpantry.milkshake_sword": "Milkshake Sword",
+	"item.rpantry.milkshake_pickaxe": "Milkshake Pickaxe",
+	"item.rpantry.milkshake_axe": "Milkshake Axe",
+	"item.rpantry.milkshake_shovel": "Milkshake Shovel",
+	"item.rpantry.milkshake_hoe": "Milkshake Hoe",
+	
+	"item.rpantry.netherrack_sword": "Netherrack Sword",
+	"item.rpantry.netherrack_pickaxe": "Netherrack Pickaxe",
+	"item.rpantry.netherrack_axe": "Netherrack Axe",
+	"item.rpantry.netherrack_shovel": "Netherrack Shovel",
+	"item.rpantry.netherrack_hoe": "Netherrack Hoe",
+	
+	"item.rpantry.strawberry": "Magic Strawberry",
+	"item.rpantry.plum": "Mystic Plum",
+	"item.rpantry.corrupted_apple": "Corrupted Apple",
+	
+	"item.rpantry.bat_wing": "Bat Wing",
+	"item.rpantry.bat_wing_shoes": "Bat Wing Shoes",
+	
+	"item.rpantry.candy_cane_sword": "Candy Cane Sword",
+	"item.rpantry.rock_candy": "Rock Candy",
+	
+	"enchantment.rpantry.hegemone_bless": "Hegemone Bless",
+	
+	"key.categories.rpantry": "Rui's Pantry Controls",
+	
+	"key.special_armor_1": "Special Armor Ability 1",
+	"key.special_armor_2": "Special Armor Ability 2",
+	
+	"biome.rpantry.corruption_biome": "Corruption",
+	"biome.rpantry.wasteland_hills_biome": "Wasteland Hills",
+	
+	"entity.rpantry.undead_vindicator": "Undead Vindicator",
+	
+	"rpantry:graveyard": "Graveyard",
+	
+	"advancements.rpantry.root.title": "Rui's Pantry",
+	"advancements.rpantry.root.description": "A big mess inside of Rui's Pantry",
+	
+	
+	"advancements.rpantry.bat_wing_shoes.title": "I believe I can fly!",
+	"advancements.rpantry.bat_wing_shoes.description": "Craft the Bat Wing Shoes",
+	
+	"advancements.rpantry.bat_wing.title": "The Bat-hunt",
+	"advancements.rpantry.bat_wing.description": "Get a Bat Wing",
+	
+	"advancements.rpantry.corrupted_biome.title": "Looks like something bad happened...",
+	"advancements.rpantry.corrupted_biome.description": "Find a Corruption Biome",
+	
+	"advancements.rpantry.formas.title": "Like a master",
+	"advancements.rpantry.formas.description": "Get a full set of Formas Armor",
+	
+	"advancements.rpantry.gam.title": "Gum, I mean... Gam",
+	"advancements.rpantry.gam.description": "Get a full set of Gam Armor",
+	
+	"advancements.rpantry.magic_ores.title": "The Magic of the Unreal",
+	"advancements.rpantry.magic_ores.description": "Collect the Magic Ores from the mod: Spinel and Ender Asurite",
+	
+	"advancements.rpantry.milkshake.title": "Milky Boy",
+	"advancements.rpantry.milkshake.description": "Get a full set of Milkshake Armor",
+	
+	"advancements.rpantry.tasty_agony.title": "Tasty Agony",
+	"advancements.rpantry.tasty_agony.description": "Eat a Corrupted Apple",
+	
+	"advancements.rpantry.sweet_magic.title": "The Sweet Magic",
+	"advancements.rpantry.sweet_magic.description": "Collect a Magic Strawberry from a Strawberry Plant",
+	
+	"advancements.rpantry.wasteland.title": "Teenage Wasteland",
+	"advancements.rpantry.wasteland.description": "Find the Wasteland Hills",
+	
+	"advancements.rpantry.pantry_dim.title": "Welcome to the Pantry",
+	"advancements.rpantry.pantry_dim.description": "Enter the Pantry's EnterHole",
+	
+	"advancements.rpantry.sugar_land.title": "Sugar Rush",
+	"advancements.rpantry.sugar_land.description": "Find the Sugar Land Biome inside the Pantry",
+	
+	
+	"itemGroup.ruispantrytab": "Rui's Pantry",
+	"itemGroup.rpantry.materials": "Rui's Pantry Misc",
+	"itemGroup.rpantry.tools": "Tools and Armor",
+	"itemGroup.rpantry.corruption": "Corruption",
+	"itemGroup.rpantry.wasteland": "Wasteland",
+	"itemGroup.rpantry.pantry": "Pantry"
+}

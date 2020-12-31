@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "planks",
+  "ingredients": [
+    {
+      "item": "rpantry:gam_log"
+    }
+  ],
+  "result": {
+    "item": "rpantry:gam_planks",
+    "count": 4
+  }
+}

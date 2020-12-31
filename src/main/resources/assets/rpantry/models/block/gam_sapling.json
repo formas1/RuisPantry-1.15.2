@@ -1,0 +1,6 @@
+{
+    "parent": "block/cross",
+    "textures": {
+        "cross": "rpantry:blocks/gam_sapling"
+    }
+}

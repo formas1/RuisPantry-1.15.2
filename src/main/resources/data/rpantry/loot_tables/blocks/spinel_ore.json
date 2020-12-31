@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "rolls": 3.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:netherrack"
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "function": "minecraft:apply_bonus",
+              "enchantment": "minecraft:fortune",
+              "formula": "minecraft:binomial_with_bonus_count",
+              "parameters": {
+                "extra": 2,
+                "probability": 1.0
+              }
+            }
+          ],
+          "name": "rpantry:spinel"
+        }
+      ]
+    }
+  ]
+}

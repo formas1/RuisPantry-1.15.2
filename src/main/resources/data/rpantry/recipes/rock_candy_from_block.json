@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "rpantry:rock_candy_block"
+    }
+  ],
+  "result": {
+    "item": "rpantry:rock_candy",
+    "count": 4
+  }
+}

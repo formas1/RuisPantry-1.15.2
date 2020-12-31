@@ -1,0 +1,7 @@
+{
+    "variants": {
+        "axis=y":  { "model": "rpantry:block/wasteland_plum_tree_log" },
+        "axis=z":   { "model": "rpantry:block/wasteland_plum_tree_log", "x": 90 },
+        "axis=x":   { "model": "rpantry:block/wasteland_plum_tree_log", "x": 90, "y": 90 }
+    }
+}

@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "II",
+    "IS",
+    " S"
+  ],
+  "key": {
+    "I": {
+      "item": "minecraft:netherrack"
+    },
+    "S": {
+      "tag": "rpantry:sticks"
+    }
+  },
+  "result": {
+    "item": "rpantry:netherrack_axe"
+  }
+}

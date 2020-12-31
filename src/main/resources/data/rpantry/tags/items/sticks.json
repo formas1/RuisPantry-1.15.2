@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "rpantry:formas_stick",
+	"rpantry:gam_stick",
+	"rpantry:milkshake_stick",
+	"minecraft:stick"
+  ]
+}

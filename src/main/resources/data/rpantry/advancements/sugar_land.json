@@ -1,0 +1,30 @@
+{
+  "display": {
+    "icon": {
+      "item": "rpantry:candy_cane_sword"
+    },
+    "title": {
+    "translate": "advancements.rpantry.sugar_land.title"
+    },
+    "description": {
+    "translate": "advancements.rpantry.sugar_land.description"
+    },
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "parent": "rpantry:pantry",
+  "criteria": {
+    "rpantry:sugar_land_biome": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "biome": "rpantry:sugar_land_biome"
+      }
+    }
+  },
+  "requirements": [
+  	[
+  		"rpantry:sugar_land_biome"
+    ]
+  ]
+}

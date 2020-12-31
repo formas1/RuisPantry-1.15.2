@@ -1,0 +1,7 @@
+{
+    "parent": "block/cube_column",
+    "textures": {
+        "end": "rpantry:blocks/corrupted_log_top",
+        "side": "rpantry:blocks/corrupted_log_side"
+    }
+}

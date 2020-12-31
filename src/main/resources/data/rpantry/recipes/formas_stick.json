@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "I",
+    "I"
+  ],
+  "key": {
+    "I": {
+      "item": "rpantry:formas_planks"
+    }
+  },
+  "result": {
+    "item": "rpantry:formas_stick",
+	"count": 4
+  }
+}

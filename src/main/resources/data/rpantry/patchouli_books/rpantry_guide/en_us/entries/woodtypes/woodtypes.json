@@ -1,0 +1,38 @@
+{
+    "name": "Wood Types",
+    "icon": "rpantry:formas_log",
+    "category": "rpantry:basics",
+    "sortnum": 0,
+    "pages": [
+        {
+            "type": "text",
+            "text": "Rui's Pantry provides different types of all materials, but for this guide, we'll use Formas variants, because I think it is the better :)"
+        },
+        {
+            "type": "spotlight",
+            "item": "rpantry:formas_log",
+            "text": "With the wood variations you can craft pretty much everything you craft with normal vanilla woods. We have some examples after this page."
+        },
+        {
+        	"type": "crafting",
+        	"recipe": "rpantry:formas_planks",
+        	"recipe2": "rpantry:formas_stick"
+        },
+        {
+        	"type": "crafting",
+        	"recipe": "rpantry:formas_slab",
+        	"recipe2": "rpantry:formas_stairs"
+        },
+        {
+        	"type": "crafting",
+        	"recipe": "rpantry:formas_fence",
+        	"text": "Because of this being a non-finished build, the trapdoor and door crafts are designed to return oak variants."
+        },
+        {
+        	"type": "crafting",
+        	"title": "Tool Sets",
+        	"recipe": "rpantry:wooden_pickaxe",
+        	"text": "You can also build yourself basic wooden and stone tools to start your survival journey! This includes fishing rod and bow.$(br2)$(bold)$(l:ores/ores)Next Entry (Ores)$()"
+        }
+    ]
+}

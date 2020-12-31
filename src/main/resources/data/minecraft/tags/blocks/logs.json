@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    "rpantry:formas_log",
+	"rpantry:gam_log",
+	"rpantry:milkshake_log",
+	"rpantry:corrupted_log",
+	"rpantry:wasteland_plum_tree_log"
+  ]
+}

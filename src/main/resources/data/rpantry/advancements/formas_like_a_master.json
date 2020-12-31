@@ -1,0 +1,59 @@
+{
+  "display": {
+    "icon": {
+      "item": "rpantry:formas_ingot"
+    },
+    "title": {
+    "translate": "advancements.rpantry.formas.title"
+    },
+    "description": {
+    "translate": "advancements.rpantry.formas.description"
+    },
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "rpantry:root",
+  "criteria": {
+    "helmet": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "rpantry:formas_helmet"
+          }
+        ]
+      }
+    },
+    "chestplate": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "rpantry:formas_chestplate"
+          }
+        ]
+      }
+    },
+    "leggings": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "rpantry:formas_leggings"
+          }
+        ]
+      }
+    },
+    "boots": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "rpantry:formas_boots"
+          }
+        ]
+      }
+    }
+  }
+}

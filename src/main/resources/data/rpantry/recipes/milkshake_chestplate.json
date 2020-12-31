@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "I I",
+    "III",
+    "III"
+  ],
+  "key": {
+    "I": {
+      "item": "rpantry:milkshake_ingot"
+    }
+  },
+  "result": {
+    "item": "rpantry:milkshake_chestplate"
+  }
+}

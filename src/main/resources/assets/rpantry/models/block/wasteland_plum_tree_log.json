@@ -1,0 +1,7 @@
+{
+    "parent": "block/cube_column",
+    "textures": {
+        "end": "rpantry:blocks/wasteland_plum_tree_log_top",
+        "side": "rpantry:blocks/wasteland_plum_tree_log_side"
+    }
+}

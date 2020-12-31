@@ -1,0 +1,12 @@
+{
+    "name": "Magic Ores",
+    "icon": "rpantry:spinel",
+    "category": "rpantry:challenge",
+    "sortnum": 1,
+    "pages": [
+        {
+            "type": "text",
+            "text": "With this mod, you also have new ore materials, and with then you can create pretty much every type of item you usually get from ores."
+        }
+    ]
+}

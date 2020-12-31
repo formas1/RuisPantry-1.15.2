@@ -1,0 +1,7 @@
+{
+    "variants": {
+        "type=bottom": { "model": "rpantry:block/wasteland_plum_tree_slab" },
+        "type=top": { "model": "rpantry:block/wasteland_plum_tree_slab_top" },
+        "type=double": { "model": "rpantry:block/wasteland_plum_tree_planks" }
+    }
+}

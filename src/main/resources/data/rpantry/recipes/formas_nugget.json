@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "rpantry:formas_ingot"
+    }
+  ],
+  "result": {
+    "item": "rpantry:formas_nugget",
+    "count": 9
+  }
+}

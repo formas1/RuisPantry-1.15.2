@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " I ",
+    "ISI",
+    "IOI"
+  ],
+  "key": {
+    "I": {
+      "item": "rpantry:bat_wing"
+    },
+    "S": {
+      "item": "minecraft:nether_star"
+    },
+	"O": {
+      "item": "minecraft:string"
+    }
+  },
+  "result": {
+    "item": "minecraft:elytra"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "planks",
+  "ingredients": [
+    {
+      "item": "rpantry:wasteland_plum_tree_log"
+    }
+  ],
+  "result": {
+    "item": "rpantry:wasteland_plum_tree_planks",
+    "count": 4
+  }
+}

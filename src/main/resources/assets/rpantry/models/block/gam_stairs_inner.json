@@ -1,0 +1,8 @@
+{
+    "parent": "block/inner_stairs",
+    "textures": {
+        "bottom": "rpantry:blocks/gam_planks",
+        "top": "rpantry:blocks/gam_planks",
+        "side": "rpantry:blocks/gam_planks"
+    }
+}

@@ -1,0 +1,9 @@
+{
+    "parent": "block/cube_bottom_top",
+    "textures": {
+        "particle": "minecraft:block/dirt",
+        "bottom": "minecraft:block/dirt",
+        "top": "rpantry:blocks/mystical_wasteland_grass_block_top",
+        "side": "rpantry:blocks/mystical_wasteland_grass_block_side"
+    }
+}
