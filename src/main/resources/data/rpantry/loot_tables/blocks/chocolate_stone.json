@@ -5,13 +5,49 @@
       "rolls": 1,
       "entries": [
         {
-          "type": "minecraft:item",
-          "name": "rpantry:chocolate_stone"
-        }
-      ],
-      "conditions": [
-        {
-          "condition": "minecraft:survives_explosion"
+          "type": "minecraft:alternatives",
+          "children": [
+            {
+              "type": "minecraft:item",
+              "conditions": [
+                {
+                  "condition": "minecraft:match_tool",
+                  "predicate": {
+                    "enchantments": [
+                      {
+                        "enchantment": "minecraft:silk_touch",
+                        "levels": {
+                          "min": 1
+                        }
+                      }
+                    ]
+                  }
+                }
+              ],
+              "name": "rpantry:chocolate_block"
+            },
+            {
+              "type": "minecraft:item",
+              "functions": [
+                {
+                  "function": "minecraft:apply_bonus",
+                  "enchantment": "minecraft:fortune",
+                  "formula": "minecraft:ore_drops"
+                },
+                {
+                  "function": "minecraft:explosion_decay"
+                },
+				{
+                  "function": "minecraft:set_count",
+				  "count": {
+					"min": 2,
+					"max": 5
+				  }
+                }
+              ],
+              "name": "rpantry:chocolate"
+            }
+          ]
         }
       ]
     }

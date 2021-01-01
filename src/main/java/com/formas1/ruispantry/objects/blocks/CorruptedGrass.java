@@ -13,8 +13,11 @@ import net.minecraftforge.common.IPlantable;
 
 public class CorruptedGrass extends GenericCorruptedBlock{
 
-	public CorruptedGrass(Properties properties) {
-		super(properties);
+	public Block blockType;
+	public CorruptedGrass(Properties properties, Block blockType)
+	{
+		super(properties, blockType);
+		this.blockType = blockType;
 	}
 
 	@Override

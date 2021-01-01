@@ -6,7 +6,12 @@
     "pages": [
         {
             "type": "text",
-            "text": "With this mod, you also have new ore materials, and with then you can create pretty much every type of item you usually get from ores."
+            "text": "Rui's Pantry also provides you two new types of Magic Materials, with this including the ores. Spinel for example."
+        },
+        {
+            "type": "spotlight",
+            "item": "rpantry:spinel_ore",
+            "text": "Here we will only cover the overworld ores, but on the $(#e80059)$(l:magic_ores/magic_ores)$(bold)Challenge$() category, we will need to reference some other dimensions...$(br2)In order to mine the Formas, Gam and Milkshake ores, you need to get at least a Diamond Pickaxe, and it will drop from 2 to 5 nuggets of the ore."
         }
     ]
 }

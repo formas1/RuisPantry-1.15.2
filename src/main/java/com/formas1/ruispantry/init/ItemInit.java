@@ -111,6 +111,8 @@ public class ItemInit
 	
 	public static final Item rock_candy = null;
 	
+	public static final Item chocolate = null;
+	
 	@SubscribeEvent
 	public static void registerItems(final RegistryEvent.Register<Item> event)
 	{
@@ -194,7 +196,8 @@ public class ItemInit
 		event.getRegistry().register(new Item(new Item.Properties().group(RPGroups.WASTELAND).food(new Food.Builder().hunger(6).saturation(0.8f).build())).setRegistryName("plum"));
 		event.getRegistry().register(new SimpleFoiledItem(new Item.Properties().group(RPGroups.CORRUPTION).food(new Food.Builder().hunger(4).saturation(0.4f).setAlwaysEdible().effect(new EffectInstance(Effects.WITHER, 300, 0), 1.0f).build())).setRegistryName("corrupted_apple"));
 		
-		event.getRegistry().register(new Item(new Item.Properties().group(RPGroups.PANTRY).food(new Food.Builder().hunger(6).saturation(0.8f).effect(new EffectInstance(Effects.SPEED, 300, 1), 1).build())).setRegistryName("rock_candy"));
+		event.getRegistry().register(new Item(new Item.Properties().group(RPGroups.PANTRY).food(new Food.Builder().hunger(6).saturation(0.6f).effect(new EffectInstance(Effects.SPEED, 300, 1), 1).build())).setRegistryName("rock_candy"));
+		event.getRegistry().register(new Item(new Item.Properties().group(RPGroups.PANTRY).food(new Food.Builder().hunger(4).saturation(0.5f).effect(new EffectInstance(Effects.SPEED, 300, 1), 1).build())).setRegistryName("chocolate"));
 		event.getRegistry().register(new SwordItem(RPantryItemTier.CANDY, 3, -2.4F, new Item.Properties().group(RPGroups.PANTRY).food(new Food.Builder().hunger(5).saturation(0.4f).effect(new EffectInstance(Effects.SPEED, 600, 0), 0.4f).build())).setRegistryName("candy_cane_sword"));
 	}
 	

@@ -2,6 +2,7 @@ package com.formas1.ruispantry.objects.blocks;
 
 import java.util.Random;
 
+import com.formas1.ruispantry.RuisPantry;
 import com.formas1.ruispantry.init.BlockInit;
 import com.formas1.ruispantry.init.DeferredBlockInit;
 
@@ -17,9 +18,11 @@ import net.minecraft.world.server.ServerWorld;
 
 public class GenericCorruptedBlock extends Block implements ICorruptBlocks
 {
-	public GenericCorruptedBlock(Properties properties)
+	public Block blockType;
+	public GenericCorruptedBlock(Properties properties, Block blockType)
 	{
 		super(properties);
+		this.blockType = blockType;
 	}
 	
 	@Override

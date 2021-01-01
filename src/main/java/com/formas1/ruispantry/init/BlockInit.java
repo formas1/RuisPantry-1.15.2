@@ -72,16 +72,17 @@ public class BlockInit
 	event.getRegistry().register(new Block(Block.Properties.create(Material.IRON).hardnessAndResistance(3.5f, 15.0f).sound(SoundType.METAL).harvestTool(ToolType.PICKAXE).harvestLevel(3)).setRegistryName("milkshake_block"));
 	
 	event.getRegistry().register(new Block(Block.Properties.create(Material.ROCK).hardnessAndResistance(3.8f, 15.0f).lightValue(10).sound(SoundType.STONE).harvestTool(ToolType.PICKAXE).harvestLevel(3)).setRegistryName("formas_ore"));
-	event.getRegistry().register(new GenericCorruptedBlock(Block.Properties.create(Material.ROCK).hardnessAndResistance(3.8f, 15.0f).lightValue(10).sound(SoundType.STONE).harvestTool(ToolType.PICKAXE).harvestLevel(3)).setRegistryName("corrupted_formas_ore"));
-	event.getRegistry().register(new Block(Block.Properties.create(Material.ROCK).hardnessAndResistance(3.8f, 15.0f).lightValue(10).sound(SoundType.STONE).harvestTool(ToolType.PICKAXE).harvestLevel(3)).setRegistryName("wasteland_formas_ore"));
-	
 	event.getRegistry().register(new Block(Block.Properties.create(Material.ROCK).hardnessAndResistance(3.8f, 15.0f).lightValue(10).sound(SoundType.STONE).harvestTool(ToolType.PICKAXE).harvestLevel(3)).setRegistryName("gam_ore"));
-	event.getRegistry().register(new GenericCorruptedBlock(Block.Properties.create(Material.ROCK).hardnessAndResistance(3.8f, 15.0f).lightValue(10).sound(SoundType.STONE).harvestTool(ToolType.PICKAXE).harvestLevel(3)).setRegistryName("corrupted_gam_ore"));
-	event.getRegistry().register(new Block(Block.Properties.create(Material.ROCK).hardnessAndResistance(3.8f, 15.0f).lightValue(10).sound(SoundType.STONE).harvestTool(ToolType.PICKAXE).harvestLevel(3)).setRegistryName("wasteland_gam_ore"));
-	
 	event.getRegistry().register(new Block(Block.Properties.create(Material.ROCK).hardnessAndResistance(3.8f, 15.0f).lightValue(10).sound(SoundType.STONE).harvestTool(ToolType.PICKAXE).harvestLevel(3)).setRegistryName("milkshake_ore"));
-	event.getRegistry().register(new GenericCorruptedBlock(Block.Properties.create(Material.ROCK).hardnessAndResistance(3.8f, 15.0f).lightValue(10).sound(SoundType.STONE).harvestTool(ToolType.PICKAXE).harvestLevel(3)).setRegistryName("corrupted_milkshake_ore"));
+	
+	
+	event.getRegistry().register(new GenericCorruptedBlock(Block.Properties.create(Material.ROCK).hardnessAndResistance(3.8f, 15.0f).lightValue(10).sound(SoundType.STONE).harvestTool(ToolType.PICKAXE).harvestLevel(3), BlockInit.formas_ore).setRegistryName("corrupted_formas_ore"));
+	event.getRegistry().register(new Block(Block.Properties.create(Material.ROCK).hardnessAndResistance(3.8f, 15.0f).lightValue(10).sound(SoundType.STONE).harvestTool(ToolType.PICKAXE).harvestLevel(3)).setRegistryName("wasteland_formas_ore"));
+	event.getRegistry().register(new GenericCorruptedBlock(Block.Properties.create(Material.ROCK).hardnessAndResistance(3.8f, 15.0f).lightValue(10).sound(SoundType.STONE).harvestTool(ToolType.PICKAXE).harvestLevel(3), BlockInit.gam_ore).setRegistryName("corrupted_gam_ore"));
+	event.getRegistry().register(new Block(Block.Properties.create(Material.ROCK).hardnessAndResistance(3.8f, 15.0f).lightValue(10).sound(SoundType.STONE).harvestTool(ToolType.PICKAXE).harvestLevel(3)).setRegistryName("wasteland_gam_ore"));
+	event.getRegistry().register(new GenericCorruptedBlock(Block.Properties.create(Material.ROCK).hardnessAndResistance(3.8f, 15.0f).lightValue(10).sound(SoundType.STONE).harvestTool(ToolType.PICKAXE).harvestLevel(3), BlockInit.milkshake_ore).setRegistryName("corrupted_milkshake_ore"));
 	event.getRegistry().register(new Block(Block.Properties.create(Material.ROCK).hardnessAndResistance(3.8f, 15.0f).lightValue(10).sound(SoundType.STONE).harvestTool(ToolType.PICKAXE).harvestLevel(3)).setRegistryName("wasteland_milkshake_ore"));
+	
 	
 	event.getRegistry().register(new StrawberryPlant(Block.Properties.create(Material.PLANTS).hardnessAndResistance(0.0f, 0.0f).sound(SoundType.PLANT)).setRegistryName("strawberry_plant"));
 	event.getRegistry().register(new BigStrawberry(Block.Properties.create(Material.PLANTS).hardnessAndResistance(0.0f, 2.0f).notSolid().sound(SoundType.SLIME)).setRegistryName("big_strawberry"));
@@ -90,10 +91,10 @@ public class BlockInit
 	event.getRegistry().register(new Block(Block.Properties.create(Material.ROCK).hardnessAndResistance(4.5f, 15.0f).sound(SoundType.STONE).harvestTool(ToolType.PICKAXE).harvestLevel(4)).setRegistryName("ender_asurite_ore"));
 	event.getRegistry().register(new SpinelBlock(Block.Properties.create(Material.ROCK).hardnessAndResistance(4.0f, 15.0f).sound(SoundType.METAL).harvestTool(ToolType.PICKAXE).harvestLevel(4)).setRegistryName("spinel_block"));
 	
-	event.getRegistry().register(new CorruptedGrass(Block.Properties.from(Blocks.GRASS_BLOCK)).setRegistryName("corrupted_grass"));
-	event.getRegistry().register(new CorruptedGrass(Block.Properties.from(Blocks.DIRT)).setRegistryName("corrupted_dirt"));
-	event.getRegistry().register(new GenericCorruptedBlock(Block.Properties.from(Blocks.STONE)).setRegistryName("corrupted_stone"));
-	event.getRegistry().register(new GenericCorruptedBlock(Block.Properties.from(Blocks.COBBLESTONE)).setRegistryName("corrupted_cobblestone"));
+	event.getRegistry().register(new CorruptedGrass(Block.Properties.from(Blocks.GRASS_BLOCK), Blocks.GRASS_BLOCK).setRegistryName("corrupted_grass"));
+	event.getRegistry().register(new CorruptedGrass(Block.Properties.from(Blocks.DIRT), Blocks.DIRT).setRegistryName("corrupted_dirt"));
+	event.getRegistry().register(new GenericCorruptedBlock(Block.Properties.from(Blocks.STONE), Blocks.STONE).setRegistryName("corrupted_stone"));
+	event.getRegistry().register(new GenericCorruptedBlock(Block.Properties.from(Blocks.COBBLESTONE), Blocks.COBBLESTONE).setRegistryName("corrupted_cobblestone"));
 	
 	event.getRegistry().register(new MysticalWastelandGrass(Block.Properties.from(Blocks.GRASS_BLOCK)).setRegistryName("mystical_wasteland_grass"));
 	event.getRegistry().register(new Block(Block.Properties.from(Blocks.STONE)).setRegistryName("mystical_wastestone"));

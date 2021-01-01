@@ -3,6 +3,7 @@ package com.formas1.ruispantry.init;
 import com.formas1.ruispantry.RuisPantry;
 import com.formas1.ruispantry.objects.blocks.ModSaplingBlock;
 import com.formas1.ruispantry.objects.blocks.PantryPortalBlock;
+import com.formas1.ruispantry.objects.blocks.SimpleGenerator;
 import com.formas1.ruispantry.world.feature.CorruptedTree;
 import com.formas1.ruispantry.world.feature.FormasTree;
 import com.formas1.ruispantry.world.feature.GamTree;
@@ -208,14 +209,18 @@ public class DeferredBlockInit
 	public static final RegistryObject<Block> ROCK_CANDY_BLOCK = BLOCKS.register("rock_candy_block",
 			() -> new Block(Block.Properties.create(Material.ROCK).harvestTool(ToolType.PICKAXE).hardnessAndResistance(1.5F, 6.0F).harvestLevel(2).lightValue(8).sound(SoundType.CORAL)));
 	
-	public static final RegistryObject<Block> CHOCOLATE_STONE= BLOCKS.register("chocolate_stone",
+	public static final RegistryObject<Block> CHOCOLATE_STONE = BLOCKS.register("chocolate_stone",
 			() -> new Block(Block.Properties.create(Material.ROCK).harvestTool(ToolType.PICKAXE).hardnessAndResistance(1.5F, 6.0F).harvestLevel(1).sound(SoundType.CORAL)));
 
-	public static final RegistryObject<Block> COOKIE_BLOCK= BLOCKS.register("cookie_block",
+	public static final RegistryObject<Block> COOKIE_BLOCK = BLOCKS.register("cookie_block",
 			() -> new Block(Block.Properties.create(Material.EARTH).hardnessAndResistance(0.5F).sound(SoundType.CORAL)));
 	
-	public static final RegistryObject<Block> CARAMEL_BLOCK= BLOCKS.register("caramel_block",
+	public static final RegistryObject<Block> CARAMEL_BLOCK = BLOCKS.register("caramel_block",
 			() -> new Block(Block.Properties.create(Material.CLAY).hardnessAndResistance(0.5F).speedFactor(0.4F).slipperiness(0.8F).sound(SoundType.field_226947_m_)));
+	
+	
+	//public static final RegistryObject<Block> SIMPLE_GENERATOR = BLOCKS.register("simple_generator",
+		//	() -> new SimpleGenerator(Block.Properties.create(Material.IRON).hardnessAndResistance(2.0F, 8.0F).sound(SoundType.ANVIL).harvestTool(ToolType.PICKAXE).harvestLevel(3).notSolid()));
 	
 	public static void setItemGroups()
 	{

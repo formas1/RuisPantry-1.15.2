@@ -1,4 +1,4 @@
-package com.formas1.ruispantry;
+	package com.formas1.ruispantry;
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -153,6 +153,7 @@ public class RuisPantry
     	RenderTypeLookup.setRenderLayer(BlockInit.big_strawberry, RenderType.getCutout());
     	
     	RenderTypeLookup.setRenderLayer(DeferredBlockInit.PANTRY_PORTAL.get(), RenderType.getCutout());
+    	//RenderTypeLookup.setRenderLayer(DeferredBlockInit.SIMPLE_GENERATOR.get(), RenderType.getCutout());
     	
     	RenderingRegistry.registerEntityRenderingHandler(ModEntityTypes.UNDEAD_VINDICATOR.get(), UndeadVindicatorRender::new);
     	

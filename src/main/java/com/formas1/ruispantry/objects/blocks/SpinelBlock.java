@@ -1,6 +1,7 @@
 package com.formas1.ruispantry.objects.blocks;
 
 import com.formas1.ruispantry.RuisPantry;
+import com.formas1.ruispantry.init.BlockInit;
 import com.formas1.ruispantry.init.DeferredBlockInit;
 import com.formas1.ruispantry.init.ItemInit;
 
@@ -40,7 +41,8 @@ public class SpinelBlock extends Block
 				worldIn.addEntity(new LightningBoltEntity(worldIn, pos.getX(), pos.getY() + 1, pos.getZ(), false));
 				worldIn.createExplosion(entityIn, pos.getX(), pos.getY(), pos.getZ(), 1.0F, Explosion.Mode.NONE);
 				worldIn.setDayTime(13000);
-				worldIn.setBlockState(pos, DeferredBlockInit.PANTRY_PORTAL.get().getDefaultState());
+				worldIn.setBlockState(pos, DeferredBlockInit.CANDY_STONE.get().getDefaultState());
+				worldIn.setBlockState(pos.add(0, 1, 0), DeferredBlockInit.PANTRY_PORTAL.get().getDefaultState());
 			}
 		}
 	}
