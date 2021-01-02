@@ -24,8 +24,7 @@ import net.minecraftforge.registries.ForgeRegistries;
 public class FeatureInit
 {
 
-	public static final DeferredRegister<Feature<?>> FEATURES = new DeferredRegister<Feature<?>>(ForgeRegistries.FEATURES,
-			RuisPantry.MOD_ID);
+	public static final DeferredRegister<Feature<?>> FEATURES = DeferredRegister.create(ForgeRegistries.FEATURES, RuisPantry.MOD_ID);
 	
 	
 	public static final RegistryObject<GraveyardStructure> GRAVEYARD = FEATURES.register("graveyard",

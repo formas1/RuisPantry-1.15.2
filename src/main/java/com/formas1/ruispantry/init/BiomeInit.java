@@ -20,8 +20,7 @@ import net.minecraftforge.registries.ForgeRegistries;
 
 public class BiomeInit
 {
-	public static final DeferredRegister<Biome> BIOMES = new DeferredRegister<>(ForgeRegistries.BIOMES,
-			RuisPantry.MOD_ID);
+	public static final DeferredRegister<Biome> BIOMES = DeferredRegister.create(ForgeRegistries.BIOMES, RuisPantry.MOD_ID);
 	
 	public static final RegistryObject<Biome> CORRUPTED_BIOME = BIOMES.register("corruption_biome", () -> new CorruptedBiome(new Biome.Builder().temperature(1.3F).waterColor(10092544).waterFogColor(10092544).surfaceBuilder(SurfaceBuilder.DEFAULT, new SurfaceBuilderConfig(BlockInit.corrupted_grass.getDefaultState(), BlockInit.corrupted_dirt.getDefaultState(), Blocks.GRAVEL.getDefaultState())).category(Category.EXTREME_HILLS).downfall(0.5F).depth(0.12f).scale(0.3F).precipitation(RainType.RAIN).parent(null)));
 	

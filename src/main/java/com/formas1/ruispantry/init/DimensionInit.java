@@ -11,7 +11,7 @@ import net.minecraftforge.registries.ForgeRegistries;
 
 public class DimensionInit
 {
-	public static final DeferredRegister<ModDimension> DIMENSIONS = new DeferredRegister<>(ForgeRegistries.MOD_DIMENSIONS, RuisPantry.MOD_ID);
+	public static final DeferredRegister<ModDimension> DIMENSIONS = DeferredRegister.create(ForgeRegistries.MOD_DIMENSIONS, RuisPantry.MOD_ID);
 	
 	public static final RegistryObject<ModDimension> PANTRY = DIMENSIONS.register("pantry_dim", () -> new PantryModDimension());
 }

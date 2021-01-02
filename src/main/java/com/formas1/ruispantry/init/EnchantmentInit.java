@@ -24,7 +24,7 @@ public class EnchantmentInit
 {
 	public static EnchantmentType HOE = EnchantmentType.create("hoe", item -> item instanceof HoeItem);
 	
-	public static final DeferredRegister<Enchantment> ENCHANTMENTS = new DeferredRegister<>(ForgeRegistries.ENCHANTMENTS, RuisPantry.MOD_ID);
+	public static final DeferredRegister<Enchantment> ENCHANTMENTS = DeferredRegister.create(ForgeRegistries.ENCHANTMENTS, RuisPantry.MOD_ID);
 	
 	public static final RegistryObject<Enchantment> HEGEMONE_BLESS = ENCHANTMENTS.register("hegemone_bless", () -> new HegemoneBlessEnchantment(Rarity.RARE, HOE, new EquipmentSlotType[] { EquipmentSlotType.MAINHAND }));
 	

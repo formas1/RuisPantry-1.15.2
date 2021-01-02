@@ -18,7 +18,7 @@ import net.minecraftforge.registries.ForgeRegistries;
 
 public class BrewingInit
 {
-	public static final DeferredRegister<Potion> POTIONS = new DeferredRegister<>(ForgeRegistries.POTION_TYPES, RuisPantry.MOD_ID);
+	public static final DeferredRegister<Potion> POTIONS = DeferredRegister.create(ForgeRegistries.POTION_TYPES, RuisPantry.MOD_ID);
 	
 	public static final RegistryObject<Potion> LEVITATION = POTIONS.register("levitation", () -> new Potion(new EffectInstance(Effects.LEVITATION, 3600)));
 	public static final RegistryObject<Potion> LONG_LEVITATION = POTIONS.register("long_levitation", () -> new Potion("levitation", new EffectInstance(Effects.LEVITATION, 9600)));

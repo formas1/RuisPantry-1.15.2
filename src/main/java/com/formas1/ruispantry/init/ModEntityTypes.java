@@ -14,9 +14,8 @@ import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 
 public class ModEntityTypes {
-	public static final DeferredRegister<EntityType<?>> ENTITY_TYPES = new DeferredRegister<>(ForgeRegistries.ENTITIES,
-			RuisPantry.MOD_ID);
-
+	public static final DeferredRegister<EntityType<?>> ENTITY_TYPES = DeferredRegister.create(ForgeRegistries.ENTITIES, RuisPantry.MOD_ID);
+	
 	public static final RegistryObject<EntityType<UndeadVindicator>> UNDEAD_VINDICATOR = ENTITY_TYPES.register(
 			"undead_vindicator",
 			() -> EntityType.Builder.<UndeadVindicator>create(UndeadVindicator::new, EntityClassification.MONSTER)

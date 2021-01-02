@@ -10,8 +10,7 @@ import net.minecraftforge.registries.ForgeRegistries;
 
 public class SoundInit
 {
-	public static final DeferredRegister<SoundEvent> SOUNDS = new DeferredRegister<>(ForgeRegistries.SOUND_EVENTS,
-			RuisPantry.MOD_ID);
+	public static final DeferredRegister<SoundEvent> SOUNDS = DeferredRegister.create(ForgeRegistries.SOUND_EVENTS, RuisPantry.MOD_ID);
 	
 	public static final RegistryObject<SoundEvent> WASTELAND_AMBIENT = SOUNDS.register("biome.wasteland.ambient", 
 			() -> new SoundEvent(new ResourceLocation(RuisPantry.MOD_ID, "biome.wasteland.ambient")));

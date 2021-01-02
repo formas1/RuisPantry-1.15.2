@@ -29,8 +29,7 @@ import net.minecraftforge.registries.ForgeRegistries;
 
 public class DeferredBlockInit
 {
-	public static final DeferredRegister<Block> BLOCKS = new DeferredRegister<>(ForgeRegistries.BLOCKS,
-			RuisPantry.MOD_ID);
+	public static final DeferredRegister<Block> BLOCKS = DeferredRegister.create(ForgeRegistries.BLOCKS, RuisPantry.MOD_ID);
 	
 	//Formas Tree
 	public static final RegistryObject<Block> FORMAS_PLANKS = BLOCKS.register("formas_planks",
