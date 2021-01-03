@@ -1,4 +1,4 @@
-	package com.formas1.ruispantry;
+package com.formas1.ruispantry;
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -27,6 +27,7 @@ import com.formas1.ruispantry.world.gen.ModGen;
 import com.formas1.ruispantry.world.gen.StructureGen;
 
 import net.minecraft.block.Block;
+import net.minecraft.block.ComposterBlock;
 import net.minecraft.client.renderer.RenderType;
 import net.minecraft.client.renderer.RenderTypeLookup;
 import net.minecraft.entity.EntityType;
@@ -131,7 +132,11 @@ public class RuisPantry
     private void setup(final FMLCommonSetupEvent event)
     {
     	ModEntityTypes.registerPlacementTypes();
+    	ComposterBlock.registerCompostable(0.6F, ItemInit.strawberry);
+    	ComposterBlock.registerCompostable(0.6F, ItemInit.plum);
+    	ComposterBlock.registerCompostable(0.6F, ItemInit.corrupted_apple);
     	registerEntityWorldSpawn(ModEntityTypes.UNDEAD_VINDICATOR.get(), 5, 1, 3, BiomeInit.WASTELAND_HILLS_BIOME.get());
+    	
     	DeferredWorkQueue.runLater(StructureGen::generateStructures);
     }
 
