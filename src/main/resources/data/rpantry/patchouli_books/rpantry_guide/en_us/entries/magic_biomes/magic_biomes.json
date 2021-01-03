@@ -1,8 +1,8 @@
 {
-    "name": "Magic Ores",
-    "icon": "rpantry:spinel",
+    "name": "Magic Biomes",
+    "icon": "rpantry:mystical_wastecobble",
     "category": "rpantry:challenge",
-    "sortnum": 0,
+    "sortnum": 1,
     "pages": [
         {
             "type": "text",

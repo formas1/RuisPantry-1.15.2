@@ -11,11 +11,11 @@ logoFile="rpantrylogo.png"
 
 modId="rpantry"
 
-version="0.16.1"
+version="0.16.2"
 
 displayName="Rui's Pantry"
 
-updateJSONURL="http://myurl.me/"
+updateJSONURL="https://raw.githubusercontent.com/ninjatdx/RuisPantry-1.15.2/main/versionCheck.json"
 
 displayURL="https://formas1.wixsite.com/ruispantrymod" #optional
 
