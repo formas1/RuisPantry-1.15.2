@@ -1,10 +1,11 @@
 {
   "homepage": "https://www.curseforge.com/minecraft/mc-mods/ruis-pantry",
   "1.15.2": {
-    "0.16.1": "-Massive Texture changes;\n-New Pantry Dimension;\n-New Sugar Land Biome;\n-Improved Item Groups;\n-Improvements on Strawberry Plant;\n-Fixed a bug on Bat drops, where the drops weren't spawning due to misspelling loot table's name in code;"
+    "0.16.1": "-Massive Texture changes;\n-New Pantry Dimension;\n-New Sugar Land Biome;\n-Improved Item Groups;\n-Improvements on Strawberry Plant;\n-Fixed a bug on Bat drops, where the drops weren't spawning due to misspelling loot table's name in code;",
+    "0.17.0": "-Added Smelting enchantment;\n-Replaced some textures;\n-Implemented a version check system;"
   },
   "promos": {
-    "1.15.2-latest": "0.16.1",
+    "1.15.2-latest": "0.17.0",
     "1.15.2-recommended": "0.16.1"
   }
 }

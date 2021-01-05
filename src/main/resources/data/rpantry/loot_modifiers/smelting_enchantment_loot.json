@@ -1,0 +1,18 @@
+{
+  "type": "rpantry:smelting_enchantment_loot",
+  "conditions": [
+    {
+      "condition": "minecraft:match_tool",
+      "predicate": {
+        "enchantments": [
+          {
+            "enchantment": "rpantry:smelting",
+            "levels": {
+              "min": 1
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

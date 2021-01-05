@@ -19,6 +19,7 @@ import com.formas1.ruispantry.init.FeatureInit;
 import com.formas1.ruispantry.init.ItemInit;
 import com.formas1.ruispantry.init.KeyBindInit;
 import com.formas1.ruispantry.init.ModEntityTypes;
+import com.formas1.ruispantry.init.SerializerInit;
 import com.formas1.ruispantry.init.SoundInit;
 import com.formas1.ruispantry.itemgroups.RPGroups;
 import com.formas1.ruispantry.objects.blocks.StrawberryPlant;
@@ -79,6 +80,7 @@ public class RuisPantry
     	BrewingInit.POTIONS.register(modEventBus);
     	EnchantmentInit.ENCHANTMENTS.register(modEventBus);
     	EnchantmentInit.registerTypes();
+    	SerializerInit.LOOT_MODIFIER_SERIALIZERS.register(modEventBus);
     	DeferredBlockInit.BLOCKS.register(modEventBus);
 		ModEntityTypes.ENTITY_TYPES.register(modEventBus);
 		BiomeInit.BIOMES.register(modEventBus);

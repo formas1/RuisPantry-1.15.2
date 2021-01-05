@@ -6,6 +6,7 @@ import java.util.List;
 
 import com.formas1.ruispantry.RuisPantry;
 import com.formas1.ruispantry.enchantments.HegemoneBlessEnchantment;
+import com.formas1.ruispantry.enchantments.SmeltingEnchantment;
 
 import net.minecraft.enchantment.Enchantment;
 import net.minecraft.enchantment.Enchantment.Rarity;
@@ -26,7 +27,9 @@ public class EnchantmentInit
 	
 	public static final DeferredRegister<Enchantment> ENCHANTMENTS = DeferredRegister.create(ForgeRegistries.ENCHANTMENTS, RuisPantry.MOD_ID);
 	
-	public static final RegistryObject<Enchantment> HEGEMONE_BLESS = ENCHANTMENTS.register("hegemone_bless", () -> new HegemoneBlessEnchantment(Rarity.RARE, HOE, new EquipmentSlotType[] { EquipmentSlotType.MAINHAND }));
+	public static final RegistryObject<Enchantment> HEGEMONE_BLESS = ENCHANTMENTS.register("hegemone_bless", () -> new HegemoneBlessEnchantment(Rarity.UNCOMMON, HOE, new EquipmentSlotType[] { EquipmentSlotType.MAINHAND }));
+	
+	public static final RegistryObject<Enchantment> SMELTING = ENCHANTMENTS.register("smelting", () -> new SmeltingEnchantment(Rarity.UNCOMMON, EnchantmentType.DIGGER, new EquipmentSlotType[] { EquipmentSlotType.MAINHAND }));
 	
 	public static void registerTypes()
 	{
