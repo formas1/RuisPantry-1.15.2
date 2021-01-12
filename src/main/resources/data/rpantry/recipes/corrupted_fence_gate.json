@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#W#",
+    "#W#"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:stick"
+    },
+    "W": {
+      "item": "rpantry:corrupted_planks"
+    }
+  },
+  "result": {
+    "item": "rpantry:corrupted_fence_gate"
+  }
+}

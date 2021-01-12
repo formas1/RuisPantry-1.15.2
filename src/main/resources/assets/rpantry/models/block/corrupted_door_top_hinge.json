@@ -1,0 +1,7 @@
+{
+    "parent": "block/door_top_rh",
+    "textures": {
+        "bottom": "rpantry:blocks/corrupted_door_bottom",
+        "top": "rpantry:blocks/corrupted_door_top"
+    }
+}

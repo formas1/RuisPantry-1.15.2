@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#W#",
+    "#W#"
+  ],
+  "key": {
+    "#": {
+      "item": "rpantry:milkshake_stick"
+    },
+    "W": {
+      "item": "rpantry:milkshake_planks"
+    }
+  },
+  "result": {
+    "item": "rpantry:milkshake_fence_gate"
+  }
+}

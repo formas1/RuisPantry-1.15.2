@@ -1,6 +1,7 @@
 package com.formas1.ruispantry.init;
 
 import com.formas1.ruispantry.RuisPantry;
+import com.formas1.ruispantry.objects.blocks.ModDoorBlock;
 import com.formas1.ruispantry.objects.blocks.ModSaplingBlock;
 import com.formas1.ruispantry.objects.blocks.PantryPortalBlock;
 import com.formas1.ruispantry.objects.blocks.SimpleGenerator;
@@ -12,7 +13,9 @@ import com.formas1.ruispantry.world.feature.WastelandPlumTree;
 
 import net.minecraft.block.Block;
 import net.minecraft.block.Blocks;
+import net.minecraft.block.DoorBlock;
 import net.minecraft.block.FenceBlock;
+import net.minecraft.block.FenceGateBlock;
 import net.minecraft.block.LeavesBlock;
 import net.minecraft.block.LogBlock;
 import net.minecraft.block.SlabBlock;
@@ -195,6 +198,39 @@ public class DeferredBlockInit
 			() -> new FenceBlock(Block.Properties.from(Blocks.OAK_FENCE)));
 	
 	
+	//Fence Gates
+	
+	public static final RegistryObject<Block> FORMAS_FENCE_GATE = BLOCKS.register("formas_fence_gate",
+			() -> new FenceGateBlock(Block.Properties.from(Blocks.OAK_FENCE_GATE)));
+	
+	public static final RegistryObject<Block> GAM_FENCE_GATE = BLOCKS.register("gam_fence_gate",
+			() -> new FenceGateBlock(Block.Properties.from(Blocks.OAK_FENCE_GATE)));
+	
+	public static final RegistryObject<Block> MILKSHAKE_FENCE_GATE = BLOCKS.register("milkshake_fence_gate",
+			() -> new FenceGateBlock(Block.Properties.from(Blocks.OAK_FENCE_GATE)));
+	
+	public static final RegistryObject<Block> CORRUPTED_FENCE_GATE = BLOCKS.register("corrupted_fence_gate",
+			() -> new FenceGateBlock(Block.Properties.from(Blocks.OAK_FENCE_GATE)));
+	
+	public static final RegistryObject<Block> WASTELAND_PLUM_TREE_FENCE_GATE = BLOCKS.register("wasteland_plum_tree_fence_gate",
+			() -> new FenceGateBlock(Block.Properties.from(Blocks.OAK_FENCE_GATE)));
+	
+	//Doors
+	
+	public static final RegistryObject<Block> FORMAS_DOOR = BLOCKS.register("formas_door",
+			() -> new ModDoorBlock(Block.Properties.from(Blocks.OAK_DOOR)));
+	
+	public static final RegistryObject<Block> GAM_DOOR = BLOCKS.register("gam_door",
+			() -> new ModDoorBlock(Block.Properties.from(Blocks.OAK_DOOR)));
+	
+	public static final RegistryObject<Block> MILKSHAKE_DOOR = BLOCKS.register("milkshake_door",
+			() -> new ModDoorBlock(Block.Properties.from(Blocks.OAK_DOOR)));
+	
+	public static final RegistryObject<Block> CORRUPTED_DOOR = BLOCKS.register("corrupted_door",
+			() -> new ModDoorBlock(Block.Properties.from(Blocks.OAK_DOOR)));
+	
+	public static final RegistryObject<Block> WASTELAND_PLUM_TREE_DOOR = BLOCKS.register("wasteland_plum_tree_door",
+			() -> new ModDoorBlock(Block.Properties.from(Blocks.OAK_DOOR)));
 	
 	
 	
@@ -226,5 +262,10 @@ public class DeferredBlockInit
 		RuisPantry.CORRUPTION = new Block[] {CORRUPTED_STONE_SLAB.get(), CORRUPTED_STONE_STAIRS.get(), CORRUPTED_COBBLESTONE_SLAB.get(), CORRUPTED_COBBLESTONE_STAIRS.get(), CORRUPTED_COBBLESTONE_WALL.get(), CORRUPTED_PLANKS.get(), CORRUPTED_LOG.get(), CORRUPTED_LEAVES.get(), CORRUPTED_SAPLING.get(), CORRUPTED_SLAB.get(), CORRUPTED_STAIRS.get()};
 		RuisPantry.WASTELAND = new Block[] {MYSTICAL_WASTESTONE_SLAB.get(), MYSTICAL_WASTESTONE_STAIRS.get(), MYSTICAL_WASTECOBBLE_SLAB.get(), MYSTICAL_WASTECOBBLE_STAIRS.get(), MYSTICAL_WASTECOBBLE_WALL.get(), WASTELAND_PLUM_TREE_PLANKS.get(), WASTELAND_PLUM_TREE_LOG.get(), WASTELAND_PLUM_TREE_LEAVES.get(), WASTELAND_PLUM_TREE_SAPLING.get(), WASTELAND_PLUM_TREE_SLAB.get(), WASTELAND_PLUM_TREE_STAIRS.get()};
 		RuisPantry.PANTRY = new Block[] {PANTRY_PORTAL.get(), CANDY_STONE.get(), ROCK_CANDY_BLOCK.get(), CHOCOLATE_STONE.get(), COOKIE_BLOCK.get(), CARAMEL_BLOCK.get()};
+	}
+	
+	public static void setItemBlocks()
+	{
+		RuisPantry.BURNABLEBLOCKITEM = new Block[] {FORMAS_PLANKS.get(), GAM_PLANKS.get(), MILKSHAKE_PLANKS.get(), CORRUPTED_PLANKS.get(), WASTELAND_PLUM_TREE_PLANKS.get(), FORMAS_STAIRS.get(), GAM_STAIRS.get(), MILKSHAKE_STAIRS.get(), CORRUPTED_STAIRS.get(), WASTELAND_PLUM_TREE_STAIRS.get(), FORMAS_SLAB.get(), GAM_SLAB.get(), MILKSHAKE_SLAB.get(), CORRUPTED_SLAB.get(), WASTELAND_PLUM_TREE_SLAB.get(), FORMAS_FENCE.get(), GAM_FENCE.get(), MILKSHAKE_FENCE.get(), CORRUPTED_FENCE.get(), WASTELAND_PLUM_TREE_FENCE.get(),FORMAS_FENCE_GATE.get(), GAM_FENCE_GATE.get(), MILKSHAKE_FENCE_GATE.get(), CORRUPTED_FENCE_GATE.get(), WASTELAND_PLUM_TREE_FENCE_GATE.get()};
 	}
 }

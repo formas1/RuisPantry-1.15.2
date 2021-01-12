@@ -105,7 +105,19 @@
 	"block.rpantry.gam_fence": "Gam Fence",
 	"block.rpantry.milkshake_fence": "Milkshake Fence",
 	"block.rpantry.corrupted_fence": "Corrupted Oak Fence",
-	"block.rpantry.wasteland_plum_tree_fence": "Wasteland Plum Tree Fence",	
+	"block.rpantry.wasteland_plum_tree_fence": "Wasteland Plum Tree Fence",
+	
+	"block.rpantry.formas_fence_gate": "Formas Fence Gate",
+	"block.rpantry.gam_fence_gate": "Gam Fence Gate",
+	"block.rpantry.milkshake_fence_gate": "Milkshake Fence Gate",
+	"block.rpantry.corrupted_fence_gate": "Corrupted Oak Fence Gate",
+	"block.rpantry.wasteland_plum_tree_fence_gate": "Wasteland Plum Tree Fence Gate",
+	
+	"block.rpantry.formas_door": "Formas Door",
+	"block.rpantry.gam_door": "Gam Door",
+	"block.rpantry.milkshake_door": "Milkshake Door",
+	"block.rpantry.corrupted_door": "Corrupted Oak Door",
+	"block.rpantry.wasteland_plum_tree_door": "Wasteland Plum Tree Door",	
 	
 	"block.rpantry.strawberry_plant": "Strawberry Seeds",
 	

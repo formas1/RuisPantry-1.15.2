@@ -23,6 +23,7 @@ import com.formas1.ruispantry.init.SerializerInit;
 import com.formas1.ruispantry.init.SoundInit;
 import com.formas1.ruispantry.itemgroups.RPGroups;
 import com.formas1.ruispantry.objects.blocks.StrawberryPlant;
+import com.formas1.ruispantry.objects.items.SimpleFuelBlockItem;
 import com.formas1.ruispantry.packets.Networking;
 import com.formas1.ruispantry.world.gen.ModGen;
 import com.formas1.ruispantry.world.gen.StructureGen;
@@ -66,9 +67,11 @@ public class RuisPantry
     public static final String MOD_ID = "rpantry";
     public static RuisPantry instance;
     public static final ResourceLocation PANTRY_DIM_TYPE = new ResourceLocation(MOD_ID, "pantry");
+    public static final ResourceLocation VOID_DIM_TYPE = new ResourceLocation(MOD_ID, "void");
 	public static Block[] CORRUPTION;
 	public static Block[] WASTELAND;
 	public static Block[] PANTRY;
+	public static Block[] BURNABLEBLOCKITEM;
 
     public RuisPantry()
     {
@@ -96,11 +99,13 @@ public class RuisPantry
 	public static void onRegisterItems(final RegistryEvent.Register<Item> event) {
 		final IForgeRegistry<Item> registry = event.getRegistry();
 		DeferredBlockInit.setItemGroups();
+		DeferredBlockInit.setItemBlocks();
 		DeferredBlockInit.BLOCKS.getEntries().stream().map(RegistryObject::get).forEach(block -> {
 			final ItemGroup GROUP;
 			boolean corruption = Arrays.stream(CORRUPTION).anyMatch(block::equals);
 			boolean wasteland = Arrays.stream(WASTELAND).anyMatch(block::equals);
 			boolean pantry = Arrays.stream(PANTRY).anyMatch(block::equals);
+			boolean isBurnable = Arrays.stream(BURNABLEBLOCKITEM).anyMatch(block::equals);
 			if(corruption) {
 				GROUP = RPGroups.CORRUPTION;
 			} else if(wasteland) {
@@ -111,7 +116,12 @@ public class RuisPantry
 				GROUP = RPGroups.MATERIALS;
 			}
 			final Item.Properties properties = new Item.Properties().group(GROUP);
-			final BlockItem blockItem = new BlockItem(block, properties);
+			final BlockItem blockItem;
+			if(!isBurnable){
+				blockItem = new BlockItem(block, properties);
+			} else {
+				blockItem = new SimpleFuelBlockItem(block, properties, 300);
+			}
 			blockItem.setRegistryName(block.getRegistryName());
 			registry.register(blockItem);
 		});

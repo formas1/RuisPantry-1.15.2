@@ -1,0 +1,7 @@
+{
+    "parent": "block/door_top_rh",
+    "textures": {
+        "bottom": "rpantry:blocks/milkshake_door_bottom",
+        "top": "rpantry:blocks/milkshake_door_top"
+    }
+}

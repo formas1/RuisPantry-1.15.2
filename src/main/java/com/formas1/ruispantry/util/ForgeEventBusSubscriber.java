@@ -20,6 +20,10 @@ public class ForgeEventBusSubscriber
 		{
 			DimensionManager.registerDimension(RuisPantry.PANTRY_DIM_TYPE, DimensionInit.PANTRY.get(), null, true);
 		}
+		if(DimensionType.byName(RuisPantry.VOID_DIM_TYPE) == null)
+		{
+			DimensionManager.registerDimension(RuisPantry.VOID_DIM_TYPE, DimensionInit.VOID.get(), null, true);
+		}
 		RuisPantry.LOGGER.info("Rui's Pantry Dimensions Registered!");
 	}
 }

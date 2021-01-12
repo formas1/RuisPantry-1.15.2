@@ -16,7 +16,7 @@
   },
   "parent": "rpantry:magic_ores",
   "criteria": {
-    "rpantry:pantry": {
+    "pantry": {
       "trigger": "minecraft:changed_dimension",
       "conditions": {
         "to": "rpantry:pantry"
@@ -24,8 +24,8 @@
     }
   },
   "requirements": [
-  	[
-  		"rpantry:pantry"
+    [
+      "pantry"
     ]
   ]
 }

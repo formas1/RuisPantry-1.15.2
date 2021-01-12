@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#W#",
+    "#W#"
+  ],
+  "key": {
+    "#": {
+      "item": "rpantry:formas_stick"
+    },
+    "W": {
+      "item": "rpantry:formas_planks"
+    }
+  },
+  "result": {
+    "item": "rpantry:formas_fence_gate"
+  }
+}

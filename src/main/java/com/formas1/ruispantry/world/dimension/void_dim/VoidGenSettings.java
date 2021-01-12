@@ -1,8 +1,8 @@
-package com.formas1.ruispantry.world.dimension;
+package com.formas1.ruispantry.world.dimension.void_dim;
 
 import net.minecraft.world.gen.GenerationSettings;
 
-public class PantryGenSettings extends GenerationSettings
+public class VoidGenSettings extends GenerationSettings
 {
 	public int getBiomeSize()
 	{

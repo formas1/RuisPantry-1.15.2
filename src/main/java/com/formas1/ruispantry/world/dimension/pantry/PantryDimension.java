@@ -1,4 +1,4 @@
-package com.formas1.ruispantry.world.dimension;
+package com.formas1.ruispantry.world.dimension.pantry;
 
 import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.util.math.BlockPos;

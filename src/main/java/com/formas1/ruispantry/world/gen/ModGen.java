@@ -73,9 +73,12 @@ public class ModGen
 				biome.addFeature(GenerationStage.Decoration.UNDERGROUND_ORES, Feature.ORE.withConfiguration(new OreFeatureConfig(OreFeatureConfig.FillerBlockType.byName("candy"), DeferredBlockInit.ROCK_CANDY_BLOCK.get().getDefaultState(), 18)).withPlacement(generalOreConfig));
 				biome.addFeature(GenerationStage.Decoration.UNDERGROUND_ORES, Feature.ORE.withConfiguration(new OreFeatureConfig(OreFeatureConfig.FillerBlockType.byName("candy"), DeferredBlockInit.CHOCOLATE_STONE.get().getDefaultState(), 22)).withPlacement(generalOreConfig));
 			} else {
-				biome.addFeature(GenerationStage.Decoration.UNDERGROUND_ORES, Feature.ORE.withConfiguration(new OreFeatureConfig(OreFeatureConfig.FillerBlockType.NATURAL_STONE, BlockInit.formas_ore.getDefaultState(), 10)).withPlacement(generalOreConfig));
-				biome.addFeature(GenerationStage.Decoration.UNDERGROUND_ORES, Feature.ORE.withConfiguration(new OreFeatureConfig(OreFeatureConfig.FillerBlockType.NATURAL_STONE, BlockInit.gam_ore.getDefaultState(), 10)).withPlacement(generalOreConfig));
-				biome.addFeature(GenerationStage.Decoration.UNDERGROUND_ORES, Feature.ORE.withConfiguration(new OreFeatureConfig(OreFeatureConfig.FillerBlockType.NATURAL_STONE, BlockInit.milkshake_ore.getDefaultState(), 10)).withPlacement(generalOreConfig));
+				if(biome != Biomes.THE_VOID)
+				{
+					biome.addFeature(GenerationStage.Decoration.UNDERGROUND_ORES, Feature.ORE.withConfiguration(new OreFeatureConfig(OreFeatureConfig.FillerBlockType.NATURAL_STONE, BlockInit.formas_ore.getDefaultState(), 10)).withPlacement(generalOreConfig));
+					biome.addFeature(GenerationStage.Decoration.UNDERGROUND_ORES, Feature.ORE.withConfiguration(new OreFeatureConfig(OreFeatureConfig.FillerBlockType.NATURAL_STONE, BlockInit.gam_ore.getDefaultState(), 10)).withPlacement(generalOreConfig));
+					biome.addFeature(GenerationStage.Decoration.UNDERGROUND_ORES, Feature.ORE.withConfiguration(new OreFeatureConfig(OreFeatureConfig.FillerBlockType.NATURAL_STONE, BlockInit.milkshake_ore.getDefaultState(), 10)).withPlacement(generalOreConfig));
+				}
 			}
 		}
 	}

@@ -1,0 +1,7 @@
+{
+    "parent": "block/door_bottom",
+    "textures": {
+        "bottom": "rpantry:blocks/formas_door_bottom",
+        "top": "rpantry:blocks/formas_door_top"
+    }
+}

@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#W#",
+    "#W#"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:stick"
+    },
+    "W": {
+      "item": "rpantry:wasteland_plum_tree_planks"
+    }
+  },
+  "result": {
+    "item": "rpantry:wasteland_plum_tree_fence_gate"
+  }
+}
