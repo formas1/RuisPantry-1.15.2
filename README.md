@@ -1,0 +1,5 @@
+# Rui's Pantry Minecraft Mod para a versão 1.15.2
+Este repositório contém o código para o meu mod Rui's Pantry adaptado à versão 1.15.2. [Sejamos como bons programadores e evitemos repetição de conteúdo :)](https://github.com/formas1/RuisPantry-1.12.2/blob/main/README.md).
+
+### Adições à informação no README da versão anterior
+Nesta versão do Mod existe muito mais conteúdo. Conteúdo mais bem desenvolvido, refletido e projetado. Mas continua a ser flagrante que este é um projeto de alguém que está a aprender, e por conta própria! Estão ausentes comentários, que aqui seriam bastante úteis para compreender uma série de decisões estruturais aqui presentes. Ainda assim, é possível perceber que já havia uma melhor noção de como corretamente utilizar e projetar uma série de utilidades ao desenvolvimento do código. Um outro aspeto a apontar é a falta de nomes de classes e variáveis suficientemente descritivas às vezes. Enfim... eu com essa idade não pensava ainda em future proofing! É de louvar que me tenha lembrado de criar repositórios! (por mais precária que seja a forma com que tenham vindo a ser mantidos...)
